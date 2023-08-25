@@ -8,12 +8,14 @@ import "./App.css";
 import MovieHeader from "./components/MovieHeader/MovieHeader";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Spinner from "./components/Spinner/Spinner";
 
 export const MovieContext = createContext(null);
 
 function App() {
   const [movies, setMovies] = useState([]);
   const [modalOpen, setModalOpen] = useState(false);
+  const [spinnerVisible, setSpinnerVisible] = useState(true);
 
   useEffect(() => {
     const moviesUrl =
@@ -22,8 +24,10 @@ function App() {
       .get(moviesUrl)
       .then((response) => {
         setMovies(response.data);
+        setSpinnerVisible(false);
       })
       .catch((error) => {
+        setSpinnerVisible(true);
         console.error("Error fetching data:", error);
       });
   }, []);
@@ -43,6 +47,7 @@ function App() {
       <MovieContext.Provider value={movies}>
         <MovieHeader setModalOpen={setModalOpen}></MovieHeader>
         <AddMovieModal open={modalOpen} onClose={() => setModalOpen(false)} onAddMovie={handleAddMovie}></AddMovieModal>
+        <Spinner spinnerVisible={spinnerVisible}></Spinner>
         <Movies></Movies>
       </MovieContext.Provider>
       <Footer></Footer>
