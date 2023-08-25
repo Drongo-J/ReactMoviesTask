@@ -1,0 +1,11 @@
+.header{
+    margin: auto !important;
+    padding: 40px 0px 0px 0px !important;
+    width: 83%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
