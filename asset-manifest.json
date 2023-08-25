@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactMoviesTask/static/css/main.b1bb31ac.css",
-    "main.js": "/ReactMoviesTask/static/js/main.ff9d3af9.js",
+    "main.css": "/ReactMoviesTask/static/css/main.12d0624f.css",
+    "main.js": "/ReactMoviesTask/static/js/main.befcff3b.js",
     "static/js/787.0ef63ba0.chunk.js": "/ReactMoviesTask/static/js/787.0ef63ba0.chunk.js",
     "static/media/brand-icons.svg": "/ReactMoviesTask/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/ReactMoviesTask/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -20,12 +20,12 @@
     "static/media/outline-icons.woff": "/ReactMoviesTask/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/ReactMoviesTask/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/ReactMoviesTask/index.html",
-    "main.b1bb31ac.css.map": "/ReactMoviesTask/static/css/main.b1bb31ac.css.map",
-    "main.ff9d3af9.js.map": "/ReactMoviesTask/static/js/main.ff9d3af9.js.map",
+    "main.12d0624f.css.map": "/ReactMoviesTask/static/css/main.12d0624f.css.map",
+    "main.befcff3b.js.map": "/ReactMoviesTask/static/js/main.befcff3b.js.map",
     "787.0ef63ba0.chunk.js.map": "/ReactMoviesTask/static/js/787.0ef63ba0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1bb31ac.css",
-    "static/js/main.ff9d3af9.js"
+    "static/css/main.12d0624f.css",
+    "static/js/main.befcff3b.js"
   ]
 }
